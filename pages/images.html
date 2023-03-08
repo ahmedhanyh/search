@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search Images</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <title>Search</title>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <nav class="nav">
+            <div class="navbar">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="./advanced.html" class="nav-link">Advanced search</a>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="main-content">
+                <img src="../img/googlelogo.png" alt="Google logo" class="google-logo">
+
+                <form  class="form" action="https://www.google.com/search">
+                    <input type="hidden" name="tbm" value="isch">
+                    <input class="form-input" type="text" name="q">
+                    <div class="form__buttons">
+                        <button class="form-btn">Google Search</button>
+                        <button class="form-btn">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="country">Country</p>
+        </footer>
     </body>
 </html>
