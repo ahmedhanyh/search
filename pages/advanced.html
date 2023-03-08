@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="../styles/advanced.css">
         <title>Advanced Search</title>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <div class="input-box">
-                <label for="all">all these words:</label>
-                <input id="all" type="text" name="as_q">
-            </div>
-            <div class="input-box">
-                <label for="exact">this exact word or phrase:</label>
-                <input id="exact" type="text" name="as_epq">
-            </div>
-            <div class="input-box">
-                <label for="any">any of these words:</label>
-                <input id="any" type="text" name="as_oq">
-            </div>
-            <div class="input-box">
-                <label for="none">none of these words:</label>
-                <input id="none" type="text" name="as_eq">
-            </div>
-            <input type="submit" value="Google Search">
-        </form>
+        <header class="header">
+            <nav class="nav">
+                <div class="navbar">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </div>
+            </nav>
+            <h1 class="main-heading">Advanced Search</h1>
+        </header>
+        <main class="main">
+            <form class="form" action="https://www.google.com/search">
+                <div class="input-box">
+                    <label for="all">all these words:</label>
+                    <input id="all" type="text" name="as_q">
+                </div>
+                <div class="input-box">
+                    <label for="exact">this exact word or phrase:</label>
+                    <input id="exact" type="text" name="as_epq">
+                </div>
+                <div class="input-box">
+                    <label for="any">any of these words:</label>
+                    <input id="any" type="text" name="as_oq">
+                </div>
+                <div class="input-box">
+                    <label for="none">none of these words:</label>
+                    <input id="none" type="text" name="as_eq">
+                </div>
+                <button class="search-btn">Advanced Search</button>
+            </form>
+        </main>
+        <footer class="footer">
+            <p class="country">Country</p>
+        </footer>
     </body>
 </html>
